@@ -32,11 +32,31 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Дозволити доступ до контактів."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission":
+            "We use your location to show jobs near you and pre-fill your address."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4cda0cbb-0db9-4c48-9e0d-054560bc0f82"
+      }
+    },
+    "owner": "zaxka_yd21"
   }
 }
